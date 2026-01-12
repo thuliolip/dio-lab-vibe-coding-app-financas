@@ -73,7 +73,69 @@ Durante essa etapa, você pode orientar a IA para três entregas principais:
 Finalize seu projeto criando um **repositório no GitHub** (pode ser um **fork** deste).  
 No README do seu repositório, inclua:
 
-- Seu **prompt final** (PRD);  
+
+PRD: 
+
+# 📱 MVP – Aplicativo de Organização de Finanças Pessoais (Experiência Conversacional)
+
+## ✅ Objetivo
+Validar se os usuários conseguem **registrar gastos e receber recomendações financeiras** de forma simples e natural, usando um chatbot como interface principal, alinhado à identidade e padrões da **CAIXA**.
+
+---
+
+## 🖥 Principais Telas
+1. **Tela de Conversa (Chat Financeiro)**
+   - Interface semelhante a um mensageiro, seguindo o **Design System CAIXA** para consistência visual.
+   - Entrada de texto e botões rápidos (ex.: “Registrar gasto”, “Ver metas”).
+   - Respostas do “Agente Financeiro” com dicas e confirmações.
+
+2. **Tela de Resumo Financeiro**
+   - Gráfico simples (pizza ou barras) mostrando categorias de gastos.
+   - Saldo disponível e metas em destaque.
+   - Uso da paleta de cores e tipografia conforme **Guia da Marca CAIXA**.
+
+3. **Tela de Metas**
+   - Definição de meta (ex.: “Economizar R\$500 este mês”).
+   - Barra de progresso com elementos visuais padronizados.
+
+4. **Tela de Configurações**
+   - Ajuste de categorias.
+   - Preferências de notificações.
+
+---
+
+## 🔑 Recursos Necessários
+- **Backend**:
+  - API para registro e classificação automática de gastos (Python + Flask ou Django).
+  - Banco de dados simples (SQLite ou PostgreSQL).
+  - Algoritmo básico de NLP para interpretar linguagem natural (início com regras simples, evoluindo para modelos como spaCy).
+
+- **Frontend**:
+  - Angular para interface web.
+  - Uso do **Design System CAIXA** para componentes e identidade visual.
+
+- **Integrações**:
+  - Serviço de autenticação seguro (OAuth ou login simples).
+  - Notificações via push ou e-mail.
+
+---
+
+## 🧪 Validação Inicial
+- **Teste com 10 a 20 usuários reais**:
+  - Avaliar se a experiência de conversa é mais fácil que planilhas.
+  - Medir se registram pelo menos 80% dos gastos sem esforço.
+- **Métricas**:
+  - Taxa de uso diário.
+  - Quantidade de gastos registrados.
+  - Feedback sobre clareza das dicas.
+
+---
+
+## 📌 Diferenciais Educativos
+- Linguagem acessível e amigável.
+- Dicas curtas e práticas (ex.: “Você gastou muito com delivery este mês, que tal cozinhar mais em casa?”).
+- Evitar termos técnicos financeiros.
+
 - Prints ou pequenos vídeos das interações com a IA;  
 - Um resumo do que o seu **App de Finanças Pessoais** faz;  
 - Uma breve **reflexão sobre o processo**:
