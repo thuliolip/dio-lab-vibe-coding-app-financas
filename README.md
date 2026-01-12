@@ -74,7 +74,7 @@ Finalize seu projeto criando um **repositório no GitHub** (pode ser um **fork**
 No README do seu repositório, inclua:
 
 
-PRD: 
+# PRD: 
 
 # 📱 MVP – Aplicativo de Organização de Finanças Pessoais (Experiência Conversacional)
 
@@ -136,12 +136,35 @@ Validar se os usuários conseguem **registrar gastos e receber recomendações f
 - Dicas curtas e práticas (ex.: “Você gastou muito com delivery este mês, que tal cozinhar mais em casa?”).
 - Evitar termos técnicos financeiros.
 
-- Prints ou pequenos vídeos das interações com a IA;  
-- Um resumo do que o seu **App de Finanças Pessoais** faz;  
-- Uma breve **reflexão sobre o processo**:
-  - O que funcionou bem?  
-  - O que não funcionou como o esperado?  
-  - O que aprendeu sobre conversar com IAs?
+# 📌 Resumo do App de Finanças Pessoais
+
+O aplicativo tem como objetivo **facilitar a organização das finanças pessoais** por meio de uma experiência **conversacional**, alinhada à identidade e padrões da **CAIXA**.  
+Em vez de formulários complexos ou planilhas, o usuário interage com um **chat inteligente**, capaz de:
+
+- Registrar gastos em linguagem natural.
+- Classificar automaticamente as transações.
+- Definir e acompanhar metas financeiras.
+- Oferecer dicas práticas de economia via “Agente Financeiro”.
+- Exibir relatórios simples e personalizados.
+
+A interface segue os princípios do **Design System CAIXA**, garantindo consistência visual e acessibilidade, além de respeitar as diretrizes para manter a identidade institucional.
+---
+
+## 💭 Reflexão sobre o Processo
+
+### ✅ O que funcionou bem?
+- A definição clara do **MVP** com foco na experiência conversacional.
+- A integração de diretrizes que trouxe padronização e identidade visual.
+- A simplicidade na proposta, evitando sobrecarga de funcionalidades no início.
+
+### ⚠️ O que não funcionou como esperado?
+- A complexidade inicial para estruturar a lógica de **NLP** (Processamento de Linguagem Natural) exigiu ajustes para manter a experiência fluida.
+- A necessidade de alinhar todas as telas ao **Guia da Marca CAIXA** demandou mais tempo do que previsto.
+
+### 📚 O que aprendi sobre conversar com IAs?
+- **Clareza é essencial**: quanto mais objetivo o prompt, melhor a resposta.
+- **Iteração constante**: é preciso ajustar perguntas para obter resultados mais precisos.
+- **IA como parceira**: ela acelera a criação de ideias e estruturação, mas ainda requer validação humana para garantir aderência às diretrizes da marca e experiência do usuário.
 
 > [!TIP]
 > Publique seu repositório e compartilhe o link na plataforma da DIO! Sua entrega é a prova de que você domina o raciocínio de Vibe Coding, mesmo sem escrever uma única linha de código.
